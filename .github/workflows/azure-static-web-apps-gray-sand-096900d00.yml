@@ -31,6 +31,7 @@ jobs:
         run: |
           pushd api
           dotnet add package Microsoft.Azure.WebJobs.Extensions.WebPubSub --version 1.0.0-beta.1
+          dotnet build
           popd 
       - name: Build And Deploy
         id: builddeploy
