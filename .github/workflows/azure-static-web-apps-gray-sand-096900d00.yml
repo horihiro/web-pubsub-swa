@@ -29,7 +29,9 @@ jobs:
       - name: Install extension
         id: installextension
         run: |
+          pushd api
           dotnet add package Microsoft.Azure.WebJobs.Extensions.WebPubSub --version 1.0.0-beta.1
+          popd 
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
