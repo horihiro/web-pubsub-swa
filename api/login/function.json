@@ -21,5 +21,6 @@
       "hub": "hub",
       "direction": "in"
     }
-  ]
+  ],
+  "disabled": true
 }
