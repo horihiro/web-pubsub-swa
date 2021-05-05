@@ -13,14 +13,6 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
-    },
-    {
-      "type": "webPubSubConnection",
-      "name": "connection",
-      "userId": "{query.userid}",
-      "hub": "hub",
-      "direction": "in"
     }
-  ],
-  "disabled": true
+  ]
 }
