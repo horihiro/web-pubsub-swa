@@ -28,10 +28,10 @@ jobs:
       #     sudo apt-get install azure-functions-core-tools-3
       - name: Install extension
         id: installextension
-        run: |
-          pushd api
-          dotnet build -c release --output ./bin
-          popd 
+        # run: |
+        #   pushd api
+        #   dotnet build -c release --output ./bin
+        #   popd 
       - name: Build And Deploy
         id: builddeploy
         env:
