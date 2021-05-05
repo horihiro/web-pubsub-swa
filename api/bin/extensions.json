@@ -1,5 +1,0 @@
-{
-  "extensions":[
-    { "name": "WebPubSub", "typeName":"Microsoft.Azure.WebJobs.Extensions.WebPubSub.WebPubSubWebJobsStartup, Microsoft.Azure.WebJobs.Extensions.WebPubSub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8"}
-  ]
-}
